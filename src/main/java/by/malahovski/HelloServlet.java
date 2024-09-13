@@ -13,7 +13,8 @@ public class HelloServlet extends HttpServlet {
 
     @Override
     public void init() {
-        message = "HELLO SERVLET";
+        //message = "HELLO SERVLET +1";
+        message = "HELLO SERVLET +2";
     }
 
     @Override
